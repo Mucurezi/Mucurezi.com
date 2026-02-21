@@ -1,0 +1,44 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.about{
+    text-align: center;   
+}
+.Stuff{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;   
+}
+.Stuff img{
+    width: 60%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid grey;
+    height: 300px;
+}
+.Stuff h2{
+    color:red;
+}
+.content{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;    
+}
+.history h1{
+    color: red;
+
+}
+.content h2{
+    color: red;
+}
+.results{
+    text-align: center;
+
+}
+.results h2{
+    color: red;
+}
+
