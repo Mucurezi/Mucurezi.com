@@ -2,6 +2,31 @@ body{
     padding: 10px 20px;
     margin: 0%;
 }
+.logo{
+    width: 30%;
+    height: 100px;
+}
+.logo img{
+    width: 30%;
+    height: 100px;
+}
+nav{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+ .links a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
 .about{
     text-align: center;   
 }
@@ -24,8 +49,10 @@ body{
 .content{
     justify-content: center;
     display: flex;
-    gap: 30px;
-    flex-direction: row;    
+    gap: 10px;
+    flex-direction: row; 
+    width: 70%; 
+    flex-basis: 50%;  
 }
 .history h1{
     color: red;
